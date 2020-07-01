@@ -26,6 +26,9 @@ body
     font-size:20px;
     color:rgba(0,0,0,0.87);
 }
+
+
+
 .logo
 {
     text-align: center;
@@ -43,10 +46,10 @@ body
     margin-right:auto;
     height:43px;
     width:25%;
-    border: 1px solid black;
+    border: 0.5px solid rgb(253, 253, 253);
     border-radius: 50px;
     font-size:13px;
-    border-color:rgba(126, 125, 125, 0.87);
+    border-color:rgba(221, 217, 217, 0.87);
     padding-top:5px;
 }
 .icon-search
@@ -92,25 +95,108 @@ body
 }
 .undersearch
 {
+    font-size:13px;
     height:100px;
     width:25%;
-    margin-top:35px;
+    margin-top:30px;
     margin-left:auto;
     margin-right:auto;
-    border:1px solid black;
+    
+    
 
 }
-.button 
+.button1
 {
-    
-    margin-left:70px;;
-    margin-right:20px;
-    padding:10px;
+    background-color: rgb(248, 245, 245);
+    color:rgba(63, 62, 62, 0.87);
+    margin-left:105px;
+    font-size:14px;
+    text-align:center;
+    padding:10px 15px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+}
+.button1:hover
+{
+    cursor:pointer;
+}
+.button2
+{
+    border-radius: 5px;
+    background-color: rgb(248, 245, 245);
+    color:rgba(63, 62, 62, 0.87);
+    margin-left:10px;
+    font-size:14px;
+    text-align:center;
+    padding:10px 15px;
+    outline:none;
+    border:none;
 }
 
 .info
 {
+    margin-top:10px;
     padding:20px;
     text-align:center;
+    text-decoration:none;
+}
+.footer
+{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    margin-top:20px;
+}
+.country
+{
+    
+    border: 0.5px solid rgba(0, 0, 0, 0.096);   
+    background-color: rgba(0, 0, 0, 0.051);
+    padding:12px 30px;
+    color:rgba(63, 62, 62, 0.87);
+    font-size:15px;
 
+}
+.footinf
+{
+    margin: 0;
+    width:98%;
+    border: 0.5px solid rgba(0, 0, 0, 0.096);    
+    background-color: rgba(0, 0, 0, 0.051);
+    padding:13px 20px;
+    color:rgba(63, 62, 62, 0.87);
+    font-size:15px;
+    border-top:none;
+    
+
+}
+.footinf a
+{
+    text-decoration: none;
+    color:rgba(63, 62, 62, 0.87);
+}
+.footinf a:active
+{
+    text-decoration: none;
+    color:rgba(63, 62, 62, 0.87);
+}
+.footinf a:visited
+{
+    text-decoration: none;
+    color:rgba(63, 62, 62, 0.87);
+}
+.left
+{
+    float:left;
+    padding:0 10px;
+    font-size:14px;
+}
+.right
+{
+    float:right;
+    padding:0 10px;
+    font-size:15px;
+    
+    
 }
