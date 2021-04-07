@@ -1,1 +1,1 @@
-Gooogle homepage made by ARczi. 
+Gooogle homepage. 
